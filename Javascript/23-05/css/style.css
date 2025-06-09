@@ -1,0 +1,33 @@
+body {
+    background: rgb(139, 138, 138);
+}
+
+.container {
+    max-width: 400px;
+    /* Centralizar o container */
+    margin: 0 auto;
+    /* Cor de fundo */
+    background: #fff;
+    /* Espaçamento dentro do elemento */
+    padding: 20px;
+    text-align: center;
+}
+
+input {
+    /* Borda da caixa */
+    border: 2px solid orange;
+    /* Espaçamento por dentro do elemento */
+    padding: 5px;
+    /* Usando o bloco */
+    display: block;
+    /* tamanho da caixa */
+    width: 100%;
+}
+
+button {
+    background: red;
+    color: #fff;
+    margin-top: 10px;
+    cursor: pointer;
+    
+}

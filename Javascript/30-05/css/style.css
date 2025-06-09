@@ -1,0 +1,53 @@
+body {
+    background: rgb(208, 214, 208);
+}
+
+.container {
+    /* Largura */
+    max-width: 450px;
+    /* Borda */
+    border: 2px solid white;
+    /* Borda arredondada*/
+    border-radius: 5px;
+    /* Centralizar minha tela */
+    margin: 0 auto;
+}
+
+.container form {
+    /* Flexbox */
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+}
+
+.form-control input {
+    /* Espaçamento entre os elementos */
+    margin-top: 15px;
+    margin-bottom: 15px;
+    /* Efeito colateral do navegador */
+    outline: none;
+    /* Espaçamento dentro do elemento */
+    padding: 5px;
+}
+
+#verificar-idade {
+    /* Cor do fundo */
+    background: #191970;
+    /* Borda do botão */
+    border: 1px solid white;
+    /* Cor de texto */
+    color: #fff;
+    /* Espaçamento dentro do elemento */
+    padding: 6px;
+    /* Espacamento entre os elementos */
+    margin-bottom: 10px;
+    /* Cursor maozinha */
+    cursor: pointer;
+
+}
+
+#resultado {
+    color: #fff;
+    margin-bottom: 10px;
+    color: red;
+}

@@ -1,0 +1,30 @@
+body {
+    font-family: Arial;
+    text-align: center;
+    padding: 50px;
+}
+
+select {
+    font-size: 16px;
+    padding: 10px;
+    border-radius: 4px;
+}
+
+a {
+    display: block;
+    font-size: 20px;
+    padding: 20px;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.color-box {
+    max-width: 200px;
+    height: 200px;
+    margin: 20px auto;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+}
